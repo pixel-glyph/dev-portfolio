@@ -1,0 +1,46 @@
+body {
+  display: grid;
+  grid-template-rows: 55px auto auto;
+  grid-template-areas:  "page-header"
+                        "home-main-body"
+                        "page-footer";
+}
+
+.page-header {
+  grid-area: "page-header";
+}
+
+.home-main-body {
+  grid-area: "home-main-body";
+  display: grid;
+  grid-template-rows: 250px auto auto auto auto;
+  grid-template-areas:  "home-banner"
+                        "home-projects"
+                        "home-skills"
+                        "home-tools"
+                        "home-contact";
+}
+
+.home-banner {
+  grid-area: "home-banner";
+}
+
+.home-projects {
+  grid-area: "home-projects";
+}
+
+.home-skills {
+  grid-area: "home-skills";
+}
+
+.home-tools {
+  grid-area: "home-tools";
+}
+
+.home-contact {
+  grid-area: "home-contact";
+}
+
+.page-footer {
+  grid-area: "page-footer";
+}
