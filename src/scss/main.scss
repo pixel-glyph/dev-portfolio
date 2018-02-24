@@ -1,11 +1,11 @@
 @import 'lib/lib';
 
-@import 'base/normalize';
-@import 'base/defaults';
-
 @import 'vars/breakpoints';
 @import 'vars/colors';
 @import 'vars/typography';
+
+@import 'base/normalize';
+@import 'base/defaults';
 
 @import 'helpers/helpers';
 
