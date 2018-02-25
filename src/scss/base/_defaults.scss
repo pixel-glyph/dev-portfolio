@@ -96,6 +96,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 body {
     font-family: $main-body-text;
@@ -110,7 +118,9 @@ h6 {
     font-family: $main-header-text;    
 }
 
-
+ul {
+    list-style-type: none;
+}
 
 
 
