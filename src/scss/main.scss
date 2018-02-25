@@ -7,7 +7,8 @@
 @import 'base/normalize';
 @import 'base/defaults';
 
-@import 'helpers/helpers';
+@import 'helpers/mixins';
+@import 'helpers/functions';
 
 @import 'layouts/grid';
 @import 'layouts/header';

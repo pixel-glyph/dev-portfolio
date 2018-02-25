@@ -1,0 +1,3 @@
+@function em($pixels, $context: $global-font-size) {
+  @return #{$pixels / $context}em;
+}
