@@ -7,13 +7,13 @@ body {
 }
 
 .page-header {
-  grid-area: "page-header";
+  grid-area: page-header;
 }
 
 .home-main-body {
-  grid-area: "home-main-body";
+  grid-area: home-main-body;
   display: grid;
-  grid-template-rows: minmax(250px, auto) auto auto auto auto;
+  grid-template-rows: em(250) auto auto auto auto;
   grid-template-areas:  "home-banner"
                         "home-projects"
                         "home-skills"
@@ -22,25 +22,25 @@ body {
 }
 
 .home-banner {
-  grid-area: "home-banner";
+  grid-area: home-banner;
 }
 
 .home-projects {
-  grid-area: "home-projects";
+  grid-area: home-projects;
 }
 
 .home-skills {
-  grid-area: "home-skills";
+  grid-area: home-skills;
 }
 
 .home-tools {
-  grid-area: "home-tools";
+  grid-area: home-tools;
 }
 
 .home-contact {
-  grid-area: "home-contact";
+  grid-area: home-contact;
 }
 
 .page-footer {
-  grid-area: "page-footer";
+  grid-area: page-footer;
 }
