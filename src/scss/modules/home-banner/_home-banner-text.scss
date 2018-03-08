@@ -1,0 +1,20 @@
+.home-banner-text {
+  width: em(272);
+  margin: em(32) auto 0;
+}
+
+.home-banner-text__greet {
+  margin: 0;
+  padding: 0 0 0 em(20);
+  font-family: $Josefin-Sans;
+  font-weight: bold;
+  font-size: em(18);
+}
+
+.home-banner-text__desc {
+  margin: em(8) 0 0;
+  font-family: $Montserrat;
+  font-size: em(13);
+  letter-spacing: 0.1px;
+  color: #5D5D5D;
+}
