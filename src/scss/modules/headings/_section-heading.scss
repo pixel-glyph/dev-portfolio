@@ -1,0 +1,21 @@
+.section-heading {
+
+  &__text {
+    margin: 0;
+    font-family: $Josefin-Sans;
+    font-size: em(28);
+    font-weight: 400;
+    color: $boulder;
+  }
+
+  &__line {
+    width: em(103);
+    height: em(2);
+    background-color: $nile-blue;
+
+    &--right {
+      margin-left: em(16);
+    }
+  }
+
+}
