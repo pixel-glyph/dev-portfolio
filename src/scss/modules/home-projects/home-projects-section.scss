@@ -1,0 +1,9 @@
+.home-projects-section {
+  padding: em(30) em(18);
+
+  &__wrapper {
+    margin: em(40) auto;
+  }
+}
+
+@import 'home-project';
