@@ -5,3 +5,11 @@
   background-color: #fff;
   border-radius: em(2);
 }
+
+@mixin home-heading($size) {
+  margin: 0;
+  font-family: $Josefin-Sans;
+  font-size: $size;
+  font-weight: 400;
+  color: $dove-grey;
+}

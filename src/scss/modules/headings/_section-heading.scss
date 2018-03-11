@@ -1,10 +1,7 @@
 .section-heading {
 
   &__text {
-    margin: 0;
-    font-family: $Josefin-Sans;
-    font-size: em(28);
-    font-weight: 400;
+    @include home-heading(em(28));
     color: $boulder;
   }
 
