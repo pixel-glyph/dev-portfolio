@@ -1,11 +1,12 @@
 const gulp        = require('gulp');
 const bSync       = require('browser-sync').create();
 const harp        = require('harp');
+const svgMin      = require('gulp-svgmin');
 
 /**
  * Serve up Harp from src
  */
-gulp.task('serve', function () {
+gulp.task('serve', function() {
   harp.server(__dirname + '/public', {
     port: 9000
   }, function () {
@@ -28,4 +29,11 @@ gulp.task('serve', function () {
   })
 });
 
+gulp.task('svg', function() {
+  return gulp.src('src/src-img/svg/**/*.svg')
+    .pipe(svgMin())
+    .pipe(gulp.dest('src/img/svg'));
+});
+
+gulp.task('opt-imgs', ['svg']);
 gulp.task('default', ['serve']);

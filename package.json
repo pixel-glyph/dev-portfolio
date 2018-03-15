@@ -13,6 +13,7 @@
     "harp": "^0.25.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.23.6"
+    "browser-sync": "^2.23.6",
+    "gulp-svgmin": "^1.2.4"
   }
 }
