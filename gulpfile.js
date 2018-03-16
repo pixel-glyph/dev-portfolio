@@ -1,6 +1,7 @@
 const gulp        = require('gulp');
 const bSync       = require('browser-sync').create();
 const harp        = require('harp');
+const imagemin    = require('gulp-imagemin');
 const svgMin      = require('gulp-svgmin');
 
 /**
@@ -35,5 +36,12 @@ gulp.task('svg', function() {
     .pipe(gulp.dest('src/img/svg'));
 });
 
-gulp.task('opt-imgs', ['svg']);
+gulp.task('imagemin', function() {
+  return gulp.src('src/src-img/img/*')
+    .pipe(imagemin())
+    .pipe(gulp.dest('public/img'));
+});
+
+gulp.task('opt-svgs', ['svg']);
+gulp.task('opt-imgs', ['imagemin']);
 gulp.task('default', ['serve']);
