@@ -1,0 +1,18 @@
+
+<svg class="home-svg home-svg__skill-lines" width="241px" height="45px" viewBox="0 0 241 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <defs></defs>
+    <g id="portfolio_main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Mobile" transform="translate(-55.000000, -2169.000000)" stroke="#979797" stroke-width="2">
+            <g id="skills_sec" transform="translate(0.000000, 1937.000000)">
+                <g id="js-lines" transform="translate(56.000000, 233.000000)">
+                    <path d="M119.5,0.5 L119.5,40.6123422" id="Line-4"></path>
+                    <path d="M119.317067,1 C111.45964,10.3138148 99.3653892,15.5654112 83.0343146,16.7547892 C66.70324,17.9441672 58.3584685,26.4360513 58,42.2304416" id="Line-5"></path>
+                    <path d="M181.317067,1 C173.45964,10.3138148 161.365389,15.5654112 145.034315,16.7547892 C128.70324,17.9441672 120.358468,26.4360513 120,42.2304416" id="Line-5-Copy" transform="translate(150.658533, 21.615221) scale(-1, 1) translate(-150.658533, -21.615221) "></path>
+                    <path d="M119,1 C113.603935,6.97921099 107.020633,10.699424 99.2500918,12.160639 C87.4334154,14.3827115 64.220462,13.2076314 48.4209854,14.1914589 C17.0371169,16.1457208 0.896788423,25.7485678 0,43" id="Line-6"></path>
+                    <path d="M239,1 C233.603936,6.97921099 227.020633,10.699424 219.250092,12.160639 C207.433416,14.3827115 184.220462,13.2076314 168.420986,14.1914589 C137.037117,16.1457208 120.896789,25.7485678 120,43" id="Line-6-Copy" transform="translate(179.500000, 22.000000) scale(-1, 1) translate(-179.500000, -22.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

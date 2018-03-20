@@ -1,0 +1,17 @@
+
+<svg class="home-svg home-svg__skill-lines" width="126px" height="44px" viewBox="0 0 126 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <defs></defs>
+    <g id="portfolio_main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Mobile" transform="translate(-113.000000, -2433.000000)" stroke="#979797" stroke-width="2">
+            <g id="skills_sec" transform="translate(0.000000, 1937.000000)">
+                <g id="css_icns" transform="translate(90.000000, 377.000000)">
+                    <g id="css_lines" transform="translate(24.000000, 120.000000)">
+                        <path d="M61.3170669,0 C53.45964,9.31381483 41.3653892,14.5654112 25.0343146,15.7547892 C8.70324004,16.9441672 0.358468499,25.4360513 0,41.2304416" id="Line-5"></path>
+                        <path d="M123.317067,0 C115.45964,9.31381483 103.365389,14.5654112 87.0343146,15.7547892 C70.70324,16.9441672 62.3584685,25.4360513 62,41.2304416" id="Line-5-Copy" transform="translate(92.658533, 20.615221) scale(-1, 1) translate(-92.658533, -20.615221) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
