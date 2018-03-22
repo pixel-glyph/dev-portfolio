@@ -1,5 +1,5 @@
-<svg class="home-svg home-svg__skill home-svg__css3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" viewBox="420 10 360 550" width="120" height="175">
-<title>CSS3 Icon</title>
+<svg class="home-icon home-icon__css3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" viewBox="420 10 360 550" width="120" height="175">
+<title>CSS3</title>
 <g>
 	<path fill="#131313" d="M685.164,96.681h-24.688l25.674,27.859v13.261h-52.882v-15.526h25.669l-25.669-27.86v-13.28h51.896V96.681   L685.164,96.681z M622.786,96.681h-24.688l25.673,27.859v13.261h-52.882v-15.526h25.672l-25.672-27.86v-13.28h51.897V96.681z    M561.018,97.312h-26.64v24.313h26.64v16.176h-45.574V81.135h45.574V97.312z"/>
 </g>

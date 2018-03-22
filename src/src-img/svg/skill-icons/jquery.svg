@@ -1,5 +1,5 @@
-<svg class="home-svg home-svg__skill home-svg__jquery" width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <title>jQuery Icon</title>
+<svg class="home-icon home-icon__jquery" width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>jQuery</title>
   <g id="jquery-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <g id="jquery" fill-rule="nonzero">
       <ellipse id="Oval" fill="#0769AD" cx="17" cy="16.5405405" rx="17" ry="16.5405405"></ellipse>

@@ -1,5 +1,5 @@
-<svg class="home-svg home-svg__tool home-svg__npm" width="72px" height="28px" viewBox="0 0 72 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>NPM Icon</title>
+<svg class="home-icon home-icon__npm" width="72px" height="28px" viewBox="0 0 72 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>NPM</title>
     <g id="npm-Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="npm" fill-rule="nonzero">
             <polyline id="Shape" fill="#CB3837" points="0 0 0 24 19.962963 24 19.962963 28 35.9333333 28 35.9333333 24 71.8666667 24 71.8666667 0"></polyline>

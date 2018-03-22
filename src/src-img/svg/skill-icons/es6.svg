@@ -1,5 +1,5 @@
-<svg class="home-svg home-svg__skill home-svg__es6" width="25px" height="35px" viewBox="0 0 25 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <title>ES6 Icon</title>
+<svg class="home-icon home-icon__es6" width="25px" height="35px" viewBox="0 0 25 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>ES6</title>
   <g id="es6-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <g id="es6" fill-rule="nonzero">
       <polygon id="Shape" fill="#FFCC33" points="2.2751723 32.0546463 0 7.14285714 25 7.14285714 22.7224744 32.0506259 12.4847033 34.8214286"></polygon>

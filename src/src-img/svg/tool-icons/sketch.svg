@@ -1,5 +1,5 @@
-<svg class="home-svg home-svg__tool home-svg__sketch" width="70px" height="63px" viewBox="0 0 96 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Sketch Icon</title>
+<svg class="home-icon home-icon__sketch" width="70px" height="63px" viewBox="0 0 96 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Sketch</title>
     <g id="sketch" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="_sketch" fill-rule="nonzero">
             <polygon id="Shape" fill="#FDB300" points="20.9032258 2.8314732 47.9032258 0 74.9032258 2.8314732 95.8064516 30.6662946 47.9032258 86 0 30.6662946"></polygon>
