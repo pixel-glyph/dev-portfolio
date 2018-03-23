@@ -32,4 +32,8 @@
     font-family: $Pacifico;
     font-size: 29px;
   }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 }
