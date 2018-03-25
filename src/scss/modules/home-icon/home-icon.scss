@@ -1,0 +1,61 @@
+.home-icon {
+  &__js {
+    width: em(108);
+    display: block;
+    margin: em(45) auto em(15);
+  }
+
+  &__redux {
+    width: em(36);
+    height: em(32);
+    margin-left: em(-2);
+  }
+
+  &__react {
+    width: em(38);
+    height: em(34);
+    margin-left: em(-12);
+  }
+  
+  &__es6 {
+    margin-left: em(-3);
+  }
+
+  &__node {
+    width: em(30);
+    height: em(34);
+    margin-right: em(-7);
+  }
+
+  &__css3 {
+    display: block;
+    width: em(90);
+    height: em(137);
+    margin: em(35) auto 0;
+  }
+
+  &__sass {
+    margin-left: em(54);
+  }
+
+  &__bem {
+    margin-right: em(54);
+  }
+
+  &__html5 {
+    display: block;
+    width: em(97);
+    height: em(139);
+    margin: em(35) auto 0;
+  }
+
+  &__pug {
+    display: block;
+    margin: em(2) auto;
+  }
+
+  &__skill-lines {
+    display: block;
+    margin: 0 auto;
+  }
+}

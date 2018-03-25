@@ -1,0 +1,9 @@
+.home-skill-group-mobile {
+  &__icons {
+    display: flex;
+    justify-content: space-between;
+    width: em(275);
+    height: em(38);
+    margin: em(10) auto 0;
+  }
+}
