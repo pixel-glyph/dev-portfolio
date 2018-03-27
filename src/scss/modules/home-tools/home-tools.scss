@@ -1,0 +1,12 @@
+.home-tools {
+  padding: em(30) 0;
+
+  &__icons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: em(258);
+    margin: em(15) auto;
+  }
+}

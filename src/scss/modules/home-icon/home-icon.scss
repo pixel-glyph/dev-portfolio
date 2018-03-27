@@ -58,4 +58,27 @@
     display: block;
     margin: 0 auto;
   }
+
+  &__tool {
+    margin-top: em(35);
+  }
+
+  &__git {
+    width: em(62);
+    height: em(61);
+  }
+
+  &__vs-code {
+    width: em(58.3);
+    height: em(62);
+  }
+
+  &__sketch {
+    margin-left: em(30);
+  }
+
+  &__gulp {
+    margin-top: em(25);
+    margin-right: em(47);
+  }
 }
