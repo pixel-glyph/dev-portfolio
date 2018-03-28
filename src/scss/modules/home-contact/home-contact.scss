@@ -1,0 +1,30 @@
+.home-contact {
+  padding: em(50) em(25);
+  text-align: center;
+  background-color: $nile-blue;
+  color: #fff;
+
+  &__heading {
+    @include home-heading(em(34));
+    color: #fff;
+  }
+
+  &__info {
+    font-size: em(14);
+  }
+
+  &__message-btn {
+    margin-top: em(30);
+    padding: em(14) em(21);
+    background-color: $porsche;
+    font-family: $Montserrat;
+    font-size: em(14);
+    border: none;
+    cursor: pointer;
+  }
+
+  &__message-btn-text {
+    vertical-align: middle;
+    margin: 0 em(1) 0 em(14);
+  }
+}
