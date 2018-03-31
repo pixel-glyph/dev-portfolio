@@ -1,11 +1,13 @@
 .page-header-nav-mobile {
-  display: none;
   position: absolute;
   top: em(56);
   width: 100%;
   height: calc(100vh - #{em(56)});
   background-color: #ffffff;
-  opacity: 0.9;
+  opacity: 0;
+  pointer-events: none;
+  // opacity: 0.9;
+  // pointer-events: auto;
 }
 
 .page-header-nav-mobile__list {

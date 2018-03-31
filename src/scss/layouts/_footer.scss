@@ -1,0 +1,12 @@
+.page-footer {
+  padding: em(25) em(40);
+  color: $alto;
+  background-color: $mine-shaft;
+  text-align: center;
+  border-top: 1px solid $boulder;
+  
+  &__text {
+    font-size: em(12);
+    margin: 0 0 em(22);
+  }
+}
