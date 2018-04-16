@@ -1,3 +1,36 @@
+/*---------------
+  MEDIA QUERIES
+---------------*/
+@mixin phone-wide {
+  @media (min-width: $phone-wide) and (max-width: $tablet - 1px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: $tablet) and (max-width: $tablet-wide - 1px) {
+    @content;
+  }
+}
+
+@mixin tablet-wide {
+  @media (min-width: $tablet-wide) and (max-width: $desktop - 1px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $desktop) and (max-width: $desktop-wide - 1px) {
+    @content;
+  }
+}
+
+@mixin desktop-wide {
+  @media (min-width: $desktop-wide) {
+    @content;
+  }
+}
+
 @mixin nav-toggle-line {
   width: em(24);
   height: 2px;

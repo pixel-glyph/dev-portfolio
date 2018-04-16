@@ -8,5 +8,12 @@
     align-items: center;
     width: em(258);
     margin: em(15) auto;
+
+    @include tablet {
+      flex-wrap: nowrap;
+      width: em(450);
+      margin-top: em(38);
+    }
   }
+
 }

@@ -1,0 +1,10 @@
+body {
+  @include phone-wide {
+    font-size: 18px;
+  }
+
+  @include tablet {
+    font-size: 20px;
+  }
+  
+}

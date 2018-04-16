@@ -1,4 +1,9 @@
 .home-icon {
+
+  /*-------------
+    SKILL ICONS
+  -------------*/
+
   &__js {
     width: em(108);
     display: block;
@@ -59,8 +64,16 @@
     margin: 0 auto;
   }
 
+  /*------------
+    TOOL ICONS
+  ------------*/
+
   &__tool {
     margin-top: em(35);
+
+    @include tablet {
+      margin: 0;
+    }
   }
 
   &__git {
@@ -75,12 +88,25 @@
 
   &__npm {
     margin-left: em(30);
+
+    @include tablet {
+      margin: 0;
+    }
   }
 
   &__gulp {
     margin-top: em(25);
     margin-right: em(47);
+
+    @include tablet {
+      width: em(60);
+      margin: 0 0 0 em(-15);
+    }
   }
+
+  /*--------------
+    FOOTER ICONS
+  --------------*/
 
   &__contact {
     margin: 0 em(13);

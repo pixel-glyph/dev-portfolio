@@ -1,6 +1,5 @@
 .home-project {
   margin: em(40) 0;
-  max-width: em(500);
 
   &__name {
     @include home-heading(em(20));
@@ -9,7 +8,7 @@
   &__desc {
     margin-top: em(10);
     font-family: $Montserrat;
-    font-size: em(11);
+    font-size: em(13);
     color: $boulder;
     letter-spacing: em(0.5);
   }
