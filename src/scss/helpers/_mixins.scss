@@ -14,13 +14,13 @@
 }
 
 @mixin tablet-wide {
-  @media (min-width: $tablet-wide) and (max-width: $desktop - 1px) {
+  @media (min-width: $tablet-wide) {
     @content;
   }
 }
 
 @mixin desktop {
-  @media (min-width: $desktop) and (max-width: $desktop-wide - 1px) {
+  @media (min-width: $desktop) {
     @content;
   }
 }
