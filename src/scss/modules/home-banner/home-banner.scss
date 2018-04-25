@@ -1,5 +1,53 @@
 .home-banner {
-  background: linear-gradient($marzipan, $porsche)
+  position: relative;
+  background: linear-gradient($marzipan, $porsche);
+
+  &__headshot {
+    width: em(190);
+    position: absolute;
+    left: 20%;
+    bottom: 0;
+  }
+
+  @include tablet-wide {
+    &:after {
+      display: block;
+      position: absolute;
+      right: 0;
+      left: 0;
+      bottom: -2px;
+      height: 16%;
+      content: '';
+      background-color: #fff;
+      transform: skewY(-4deg);
+      transform-origin: 100%;
+      z-index: 2;
+    }
+
+    &__headshot {
+      width: em(360);
+      left: unset;
+      right: 6%;
+      bottom: em(20);
+    }
+  }
+
+  @include desktop {
+    font-size: 23px;
+  }
+
+  @include desktop-wide {
+    &:after {
+      height: 22%;
+    }
+
+    &__headshot {
+      width: em(440);
+      bottom: em(70);
+    }
+  }
+
+  
 }
 
 @import 'home-banner-text';

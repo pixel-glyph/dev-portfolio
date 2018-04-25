@@ -6,5 +6,11 @@ body {
   @include tablet {
     font-size: 20px;
   }
+
+  @include tablet-wide {
+    font-size: 20px;
+  }
+
+
   
 }

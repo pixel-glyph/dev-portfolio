@@ -1,5 +1,6 @@
 .home-projects {
-  padding: em(30) em(18);
+  padding: em(30) em(18) em(40);
+  z-index: 4;
 
   &__wrapper {
     max-width: 500px;

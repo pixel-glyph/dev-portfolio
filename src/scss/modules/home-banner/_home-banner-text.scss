@@ -1,21 +1,42 @@
 .home-banner-text {
   width: em(272);
   margin: em(32) auto 0;
-}
 
-.home-banner-text__greet {
-  margin: 0;
-  padding: 0 0 0 em(20);
-  font-family: $Josefin-Sans;
-  font-weight: bold;
-  font-size: em(18);
-  color: #3A3A3A;
-}
+  &__greet {
+    margin: 0;
+    padding: 0 0 0 em(20);
+    font-family: $Josefin-Sans;
+    font-weight: bold;
+    font-size: em(18);
+    color: #3A3A3A;
+  }
 
-.home-banner-text__desc {
-  margin: em(8) 0 0;
-  font-family: $Montserrat;
-  font-size: em(13);
-  letter-spacing: em(0.3);
-  color: #5D5D5D;
+  &__desc {
+    margin: em(8) 0 0;
+    font-family: $Montserrat;
+    font-size: em(13);
+    letter-spacing: em(0.3);
+    color: #5D5D5D;
+  }
+
+  @include tablet-wide {
+    margin: em(130) 0 0 8%;
+  }
+
+  @include desktop {
+    margin-top: em(110);
+
+    &__greet {
+      font-size: 36px;
+      padding-left: em(6);
+    }
+  }
+
+  @include desktop-wide {
+    margin-top: em(150);
+  }
+
+  @media (min-width: 1500px) {
+    margin-left: 12%;
+  }
 }

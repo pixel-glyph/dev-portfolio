@@ -13,7 +13,20 @@ body {
 .home-main-body {
   grid-area: home-main-body;
   display: grid;
-  grid-template-rows: em(250) auto auto auto auto;
+  grid-template-rows: em(300) auto auto auto auto;
+  
+  @include tablet-wide {
+    grid-template-rows: em(400) auto auto auto auto;
+  }
+  
+  @include desktop {
+    grid-template-rows: em(450) auto auto auto auto;
+  }
+  
+  @include desktop-wide {
+    grid-template-rows: em(600) auto auto auto auto;
+  }
+  
   grid-template-areas:  "home-banner"
                         "home-projects"
                         "home-skills"
