@@ -1,4 +1,17 @@
 .home-skill-group-mobile {
+
+  @media (min-width: 550px) {
+    font-size: 22px;
+  }
+
+  @include tablet {
+    font-size: 24px;
+  }
+
+  @include tablet-wide {
+    font-size: 26px;
+  }
+  
   &__icons {
     display: flex;
     justify-content: space-between;

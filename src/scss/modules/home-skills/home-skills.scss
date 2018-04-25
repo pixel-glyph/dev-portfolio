@@ -1,14 +1,6 @@
 .home-skills {
   padding: em(40) em(38);
   background-color: #F5F5F5;
-
-  @media (min-width: 550px) and (max-width: 699px) {
-    font-size: 22px;
-  }
-
-  @include tablet {
-    font-size: 24px;
-  }
 }
 
 @import 'home-skill-group-mobile';
