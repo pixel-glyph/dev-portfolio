@@ -10,6 +10,7 @@ mixin header-nav-links(listClass, listItemClass, linkClass)
 mixin home-project(linkHref, title, desc, imgSrc, srcSet)
   .home-project
     a.home-project__anchor(href=linkHref)
-      h3.home-project__name #{title}
-      p.home-project__desc #{desc}
+      .home-project__text
+        h3.home-project__name #{title}
+        p.home-project__desc #{desc}
       img.home-project__image(src=imgSrc, srcset=srcSet, title="#{title} screenshot")

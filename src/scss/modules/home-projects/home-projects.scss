@@ -1,10 +1,29 @@
 .home-projects {
   padding: em(30) em(18) em(40);
   z-index: 4;
-
+  
   &__wrapper {
     max-width: 500px;
     margin: em(40) auto 0;
+  }
+
+  @include tablet {
+    padding: em(40) em(38);
+  }
+
+  @include desktop {
+    max-width: 1206px;
+    margin: 0 auto;
+
+    &__wrapper {
+      font-size: 18px;
+      max-width: 1250px;
+    }
+  }
+
+  @include desktop-wide {
+    max-width: 1306px;
+    font-size: 24px;
   }
 }
 

@@ -35,4 +35,51 @@
   &:last-of-type {
     margin-bottom: 0;
   }
+
+  @include desktop {
+    font-size: 22px;
+    margin: em(50) 0;
+
+    &__name {
+      padding-left: em(15);
+    }
+
+    &:nth-of-type(odd) {
+      .home-project__anchor {
+        flex-direction: row-reverse;
+      }
+    }
+
+    &__anchor {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__text {
+      max-width: 45%;
+    }
+
+    &__image {
+      max-width: 45%;
+    }
+
+    &__vg-image {
+      width: 45%;
+    }
+  }
+
+  @include desktop-wide {
+    &__text {
+      max-width: 41%;
+    }
+
+    &__image {
+      max-width: 100%;
+    }
+
+    &__vg-image {
+      width: 500px;
+    }
+  }
 }
