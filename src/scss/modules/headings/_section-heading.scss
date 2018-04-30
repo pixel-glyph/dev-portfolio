@@ -11,7 +11,7 @@
 
   &__line {
     width: em(103);
-    height: em(2);
+    height: 2px;
     background-color: $nile-blue;
 
     &--right {
@@ -21,6 +21,12 @@
     &--center {
       width: em(40);
       margin: 0 auto;
+    }
+  }
+
+  @include desktop {
+    &__line {
+      height: 3px;
     }
   }
 
