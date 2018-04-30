@@ -20,7 +20,7 @@
   }
 
   @include tablet-wide {
-    margin: em(130) 0 0 8%;
+    margin: em(130) 0 0 12%;
   }
 
   @include desktop {
@@ -34,9 +34,5 @@
 
   @include desktop-wide {
     margin-top: em(150);
-  }
-
-  @media (min-width: 1500px) {
-    margin-left: 12%;
   }
 }
