@@ -1,9 +1,4 @@
-.home-icon {
-
-  /*-------------
-    SKILL ICONS
-  -------------*/
-
+.home-skill-icon {
   &__js {
     width: em(108);
     display: block;
@@ -64,16 +59,15 @@
     margin: 0 auto;
   }
 
-  /*------------
-    TOOL ICONS
-  ------------*/
+  &__skill-lines-desktop {
+    margin: em(50) auto;
+  }
+}
 
-  &__tool {
-    margin-top: em(35);
-
-    @include tablet {
-      margin: 0;
-    }
+.home-tool-icon {
+  margin-top: em(35);
+  @include tablet {
+    margin: 0;
   }
 
   &__git {
@@ -103,13 +97,17 @@
       margin: 0 0 0 em(-15);
     }
   }
+}
+  
+.home-contact-icon {
+  margin: 0 em(13);
+  cursor: pointer;
+}
 
-  /*--------------
-    FOOTER ICONS
-  --------------*/
+@include desktop {
+  position: absolute;
 
-  &__contact {
-    margin: 0 em(13);
-    cursor: pointer;
+  &__skill-lines {
+    position: initial;
   }
 }
