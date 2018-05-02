@@ -29,4 +29,12 @@
     vertical-align: middle;
     margin: 0 em(1) 0 em(14);
   }
+
+  @include desktop {
+    padding: 3.4em 1.5em;
+
+    &__info {
+      max-width: 32em;
+    }
+  }
 }

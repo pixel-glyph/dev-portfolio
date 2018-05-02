@@ -9,4 +9,15 @@
     font-size: em(12);
     margin: 0 0 em(22);
   }
+
+  @include desktop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 2.5em;
+
+    &__text {
+      margin: 0;
+    }
+  }
 }
