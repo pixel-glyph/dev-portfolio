@@ -6,4 +6,14 @@
   height: em(56);
   padding: em(10) em(20);
   background-color: $nile-blue;
+
+  @include desktop {
+    font-size: 22px;
+  }
+
+  @include desktop-wide {
+    font-size: 24px;
+    padding-left: 12%;
+    padding-right: 7%;
+  }
 }
