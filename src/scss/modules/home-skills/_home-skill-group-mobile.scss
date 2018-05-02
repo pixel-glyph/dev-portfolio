@@ -1,5 +1,13 @@
 .home-skill-group-mobile {
 
+  &__icons {
+    display: flex;
+    justify-content: space-between;
+    width: em(275);
+    height: em(38);
+    margin: em(10) auto 0;
+  }
+
   @media (min-width: 550px) {
     font-size: 22px;
   }
@@ -11,12 +19,8 @@
   @include tablet-wide {
     font-size: 26px;
   }
-  
-  &__icons {
-    display: flex;
-    justify-content: space-between;
-    width: em(275);
-    height: em(38);
-    margin: em(10) auto 0;
+
+  @include desktop {
+    display: none;
   }
 }

@@ -59,8 +59,80 @@
     margin: 0 auto;
   }
 
-  &__skill-lines-desktop {
-    margin: em(50) auto;
+  @include desktop {
+    position: absolute;
+    margin: 0;
+
+    &__js {
+      top: 2.15em;
+      right: 3.7375em;
+      width: 6.675em;
+    }
+
+    &__redux {
+      top: 2.15em;
+      right: 14.3em;
+    }
+  
+    &__react {
+      top: -2.8em;
+      right: 12.5em;
+      width: 3.6em;
+      height: 3.2em;
+    }
+    
+    &__es6 {
+      top: -2.2em;
+      right: -1.8em;
+      width: 2em;
+      height: 2.8em;
+    }
+  
+    &__node {
+      bottom: 1em;
+      right: 1.9em;
+      width: 2.7em;
+      height: 3.06em;
+    }
+
+    &__jquery {
+      top: 8.3em;
+      right: -3em;
+      width: 2.5em;
+      height: 2.5em;
+    }
+
+    &__css3 {
+      top: -3em;
+      left: 2.5em;
+      width: 5.5em;
+      height: 8.4em;
+    }
+    
+    &__sass {
+      top: -0.5em;
+      left: 12.9em;
+      width: 3.8em;
+      height: 2.8em;
+    }
+    
+    &__bem {
+      top: 7.4em;
+      left: -1.9em;
+    }
+    
+    &__html5 {
+      bottom: 2.6em;
+      left: 14.4em;
+      width: 5.9em;
+      height: 9em;
+    }
+
+    &__pug {
+      left: 14.4em;
+      bottom: -2.9em;
+    }
+    
   }
 }
 
@@ -102,12 +174,8 @@
 .home-contact-icon {
   margin: 0 em(13);
   cursor: pointer;
-}
 
-@include desktop {
-  position: absolute;
-
-  &__skill-lines {
-    position: initial;
+  &__mail {
+    margin: 0;
   }
 }

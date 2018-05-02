@@ -1,0 +1,11 @@
+.home-skill-group-desktop {
+  display: none;
+  position: relative;
+  width: 42em;
+  height: 19.5em;
+  margin: 5em auto 4.5em;
+
+  @include desktop {
+    display: block;
+  }
+}
