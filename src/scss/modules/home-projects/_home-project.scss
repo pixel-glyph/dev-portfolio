@@ -37,7 +37,7 @@
   }
 
   @include desktop {
-    font-size: 22px;
+    font-size: 20px;
     margin: em(50) 0;
 
     &__name {
@@ -72,6 +72,10 @@
   @include desktop-wide {
     &__text {
       max-width: 41%;
+    }
+
+    &__name {
+      font-size: 1.65em;
     }
 
     &__image {

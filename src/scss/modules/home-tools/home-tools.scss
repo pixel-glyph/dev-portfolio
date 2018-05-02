@@ -26,4 +26,13 @@
     }
   }
 
+  @include desktop-wide {
+    font-size: 24px;
+    padding-top: 3.3em;
+
+    &__icons {
+      font-size: 22px;
+    }
+  }
+
 }

@@ -1,6 +1,11 @@
 .home-skills {
   padding: em(40) em(38);
   background-color: #F5F5F5;
+
+  @include desktop-wide {
+    font-size: 24px;
+    padding-top: 3.3em;
+  }
 }
 
 @import 'home-skill-group-mobile';

@@ -8,4 +8,8 @@
   @include desktop {
     display: block;
   }
+
+  @include desktop-wide {
+    font-size: 22px;
+  }
 }
