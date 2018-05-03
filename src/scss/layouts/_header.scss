@@ -9,11 +9,11 @@
 
   @include desktop {
     font-size: 22px;
+    padding-left: 12%;
+    padding-right: 7%;
   }
 
   @include desktop-wide {
     font-size: 24px;
-    padding-left: 12%;
-    padding-right: 7%;
   }
 }
