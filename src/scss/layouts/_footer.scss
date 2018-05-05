@@ -1,5 +1,5 @@
 .page-footer {
-  padding: em(25) em(40);
+  padding: 2.2em 1.5em 1.4em;
   color: $alto;
   background-color: $mine-shaft;
   text-align: center;
@@ -8,6 +8,12 @@
   &__text {
     font-size: em(12);
     margin: 0 0 em(22);
+  }
+
+  &__icon {
+    display: inline-block;
+    margin: 0 em(8);
+    padding: em(10);
   }
 
   @include desktop {
