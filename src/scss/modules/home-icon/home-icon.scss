@@ -175,6 +175,14 @@
   margin: 0 em(13);
   cursor: pointer;
 
+  &__github {
+    fill: #D9D9D9;
+  }
+  
+  &__linkedin {
+    fill: #D9D9D9;
+  }
+
   &__mail {
     margin: 0;
   }
