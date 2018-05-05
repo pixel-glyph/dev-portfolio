@@ -3,8 +3,9 @@
   position: relative;
   grid-template-columns: auto auto;
   justify-content: space-between;
+  align-items: center;
   height: em(56);
-  padding: em(10) em(20);
+  padding: 0 em(8) 0 em(20);
   background-color: $nile-blue;
 
   @include desktop {
