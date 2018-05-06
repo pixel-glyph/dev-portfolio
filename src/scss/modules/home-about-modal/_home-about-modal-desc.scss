@@ -1,0 +1,19 @@
+.home-about-modal-desc {
+  font-family: $Montserrat;
+  font-size: 12px;
+  
+  &__heading {
+    margin-top: 0;
+    font-size: 1.8em;
+    font-family: $Montserrat;
+    font-weight: 400;
+    text-align-last: center;
+  }
+
+  &__paragraph {
+    
+    &:last-of-type {
+      margin-bottom: em(6);
+    }
+  }
+}

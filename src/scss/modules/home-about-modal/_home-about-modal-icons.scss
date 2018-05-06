@@ -1,0 +1,15 @@
+.home-about-modal-icons {
+  text-align: center;
+
+  &__icon {
+    display: inline-block;
+    margin: 0 em(20);
+    padding: em(13.5);
+  }
+  
+  .home-contact-icon {
+    width: em(37);
+    height: em(37);
+    fill: $dove-grey;
+  }
+}

@@ -1,0 +1,36 @@
+.home-about-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: em(310);
+  padding: em(20) em(20) em(12);
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.5);
+  z-index: 60;
+
+  &__close {
+    position: absolute;
+    padding: em(13) em(16);
+    top: em(6);
+    right: em(6);
+  }
+
+  &__image {
+    display: none;
+  }
+
+  @include tablet {
+    // width: 39.3em;
+    // height: 29.35em;
+  }
+
+  @include desktop {
+    width: 39.3em;
+    height: 29.35em;
+  }
+}
+
+@import 'home-about-modal-desc';
+@import 'home-about-modal-icons';
