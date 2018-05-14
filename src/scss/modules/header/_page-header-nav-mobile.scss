@@ -1,5 +1,5 @@
 .page-header-nav-mobile {
-  position: absolute;
+  position: fixed;
   top: em(56);
   width: 100%;
   height: calc(100vh - #{em(56)});
@@ -7,8 +7,13 @@
   opacity: 0;
   z-index: 10;
   pointer-events: none;
-  // APPLY THESE ON SHOW
-  // opacity: 0.9;
+  // APPLY THESE ON SHOW WITH MODIFIER CLASS NAME
+  // AND GIVE BODY A NO-SCROLL CLASS. EX:
+  //  .noScroll { 
+  //    overflow: hidden;
+  //  }
+  // 
+  // opacity: 0.95;
   // pointer-events: auto;
 
   &__list {
@@ -39,5 +44,10 @@
     font-weight: bold;
     letter-spacing: em(0.5);
   }
-  
+
+  @include tablet {
+    &__list {
+      margin: em(80) 0;
+    }
+  }
 }
