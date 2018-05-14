@@ -5,12 +5,10 @@
   height: 100vh;
   background-color: #212121;
   z-index: 50;
-
-  // DEFAULT
-  // pointer-events: none;
-  // opacity: 0;
+  pointer-events: none;
+  opacity: 0;
   
   // ON SHOW
-  pointer-events: auto;
-  opacity: 0.5;
+  // pointer-events: auto;
+  // opacity: 0.5;
 }

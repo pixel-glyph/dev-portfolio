@@ -1,15 +1,26 @@
+$icon-width: em(37);
+
 .home-about-modal-icons {
   text-align: center;
 
   &__icon {
     display: inline-block;
-    margin: 0 em(20);
-    padding: em(13.5);
+    margin: 0 16px;
+    padding: calc((48px - #{$icon-width}) / 2);
   }
   
   .home-contact-icon {
-    width: em(37);
-    height: em(37);
+    width: $icon-width;
+    height: $icon-width;
     fill: $dove-grey;
+  }
+
+  @include desktop {
+    margin-top: 20px;
+
+    &__icon {
+      margin: 7px 23px;
+      padding: 0;
+    }
   }
 }

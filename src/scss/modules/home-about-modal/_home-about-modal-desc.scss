@@ -1,4 +1,5 @@
 .home-about-modal-desc {
+  padding: 2em 2.4em 1.25em;
   font-family: $Montserrat;
   font-size: 12px;
   
@@ -13,7 +14,30 @@
   &__paragraph {
     
     &:last-of-type {
-      margin-bottom: em(6);
+      margin-bottom: em(12);
     }
+  }
+
+  @include phone-wide {
+    font-size: 14px;
+  }
+
+  @include tablet {
+    padding-bottom: 1.5em;;
+    font-size: 16px;
+
+    &__paragraph {
+      &:last-of-type {
+        margin-bottom: em(18);
+      }
+    }
+  }
+
+  @include tablet-wide {
+    font-size: 14px;
+  }
+
+  @include desktop {
+    font-size: 15px;
   }
 }
