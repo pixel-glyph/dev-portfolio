@@ -1,0 +1,25 @@
+.contact-modal
+
+  //- .home-about-modal__close
+  //-   include ../../svg/misc-icons/close_icn.svg
+
+  h1.contact-modal__heading Send me an email
+
+  form(action="#", method="post" class="contact-form")
+    .contact-form__input-wrap  
+      label(for="contact-name") NAME
+      input(id="contact-name", type="text", name="user-name" class="contact-form__input-text")
+
+    .contact-form__input-wrap
+      label(for="contact-email") EMAIL
+      input(id="contact-email", type="email", name="user-email" class="contact-form__input-text")
+
+    .contact-form__input-wrap.contact-form__input-wrap--wide
+      label(for="contact-subject") SUBJECT
+      input(id="contact-subject", type="text", name="user-subject" class="contact-form__input-text")
+
+    .contact-form__input-wrap.contact-form__input-wrap--wide
+      label(for="contact-message") MESSAGE
+      textarea(id="contact-message", name="user-message" class="contact-form__input-textarea")
+
+    button(class="contact-modal-btn-submit") Submit

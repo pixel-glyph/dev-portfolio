@@ -1,0 +1,15 @@
+.contact-modal {
+  @include modal(#fff);
+  max-width: 700px;
+  height: 515px;
+  
+  // ON SHOW
+  pointer-events: auto;
+  opacity: 1;
+  
+  &__heading {
+    text-align: center;
+    font-family: $Montserrat;
+    font-weight: 400;
+  }
+}
