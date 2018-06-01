@@ -1,17 +1,6 @@
 .home-about-modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 86%;
-  min-width: 310px;
-  max-width: 390px;
-  background-color: #fff;
+  @include modal(#fff);
   border-radius: 8px;
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.5);
-  z-index: 60;
-  opacity: 0;
-  pointer-events: none;
   // ON SHOW
   // pointer-events: auto;
   // opacity: 1;
