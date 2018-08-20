@@ -19,7 +19,7 @@ gulp.task('serve', function() {
      * Watch for scss changes, tell BrowserSync to refresh main.css
      */
     gulp.watch("src/**/*.scss", function () {
-      bSync.reload("public/main.css", {stream: true});
+      bSync.reload("public/main.scss", {stream: true});
     });
     /**
      * Watch for all other changes, reload the whole page
