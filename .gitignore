@@ -6,6 +6,7 @@ npm-debug.log*
 
 # styles
 src/**/*.css
+!src/**/wufoo.css
 *.css.map
 .sass-cache
 
