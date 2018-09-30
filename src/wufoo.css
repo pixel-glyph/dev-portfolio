@@ -1,3 +1,64 @@
+.embed form.wufoo   {
+  max-width: 473px;
+  margin: 0 auto !important;
+  padding: 0 25px;
+}
+
 form.wufoo #header {
+  display: none;
+}
+
+form.wufoo li.focused {
+  background-color: #fff;
+}
+
+form.wufoo input.text {
+  margin: 0;
+  padding: 0px 0 4px 4px;
+  border: unset;
+  border-bottom: 2px solid #173753;
+  background: none;
+  outline: none;
+}
+
+form.wufoo textarea.textarea {
+  max-height: 185px;
+  margin-top: 18px;
+  padding: 5px 0 0 5px;
+  border: 2px solid #173753;
+  outline: none;
+}
+
+form.wufoo li.buttons {
+  text-align: center;
+}
+
+form.wufoo li.buttons input.submit {
+  margin-top: 10px;
+  padding: 9px 25px;
+  background-color: #173753;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* --------------
+  AFTER SUBMIT
+-------------- */
+form.wufoo .freeHeading {
+  display: none;
+}
+
+form.wufoo .create-message {
+  display: none;
+}
+form.wufoo .logo-container {
+  display: none;
+}
+
+form.wufoo .start-cta {
   display: none;
 }
