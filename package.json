@@ -13,10 +13,10 @@
   "license": "ISC",
   "dependencies": {
     "gulp": "^3.9.1",
-    "harp": "^0.27.0"
+    "harp": "^0.29.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.24.6",
+    "browser-sync": "^2.26.3",
     "gulp-imagemin": "^4.1.0",
     "gulp-svgmin": "^1.2.4"
   }
