@@ -16,7 +16,7 @@ form.wufoo input.text {
   margin: 0;
   padding: 0px 0 4px 4px;
   border: unset;
-  border-bottom: 2px solid #173753;
+  border-bottom: 2px solid #173753; 
   background: none;
   outline: none;
 }
@@ -24,7 +24,7 @@ form.wufoo input.text {
 form.wufoo textarea.textarea {
   max-height: 185px;
   margin-top: 18px;
-  padding: 5px 0 0 5px;
+  padding: 5px 0 0 5px; 
   border: 2px solid #173753;
   outline: none;
 }
@@ -34,15 +34,40 @@ form.wufoo li.buttons {
 }
 
 form.wufoo li.buttons input.submit {
+  width: 117px;
+  height: 38px;
   margin-top: 10px;
-  padding: 9px 25px;
   background-color: #173753;
   color: #fff;
   font-size: 14px;
   font-weight: 300;
+  letter-spacing: 1.5px;
   border: none;
   text-transform: uppercase;
   cursor: pointer;
+  outline: none;
+  transition: background 0.3s ease;
+}
+
+form.wufoo li.buttons input.submit:hover,
+form.wufoo li.buttons input.submit:focus {
+  background-color: #355169;
+}
+
+
+form span.req {
+  display: none !important;
+}
+
+/* --------
+  ERRORS
+---------*/
+form li.error {
+  background-color: #fff !important;
+}
+
+#errorLi {
+  display: none;
 }
 
 /* --------------
@@ -61,4 +86,71 @@ form.wufoo .logo-container {
 
 form.wufoo .start-cta {
   display: none;
+}
+
+/* ----------------
+  LOADING SPINNER
+---------------- */
+.loading {
+  font-size: 10px;
+  margin: 50px auto;
+  text-indent: -9999em;
+  width: 11em;
+  height: 11em;
+  border-radius: 50%;
+  background: #ffffff;
+  background: -moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -ms-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  position: relative;
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.loading:before {
+  width: 50%;
+  height: 50%;
+  background: #ffffff;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+.loading:after {
+  background: #0dc5c1;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
