@@ -1,6 +1,7 @@
 .home-projects {
   padding: em(30) em(18) em(40);
   z-index: 4;
+  background-color: #fff;
   
   &__wrapper {
     max-width: 500px;
@@ -12,9 +13,11 @@
   }
 
   @include desktop {
-    max-width: 1206px;
-    margin: 0 auto;
-    padding-bottom: 4em;
+    &__section-wrapper {
+      max-width: 1206px;
+      margin: 0 auto;
+      padding-bottom: 4em;
+    }
 
     &__wrapper {
       font-size: 18px;
@@ -23,8 +26,10 @@
   }
 
   @include desktop-wide {
-    max-width: 1306px;
-    font-size: 24px;
+    &__section-wrapper {
+      max-width: 1306px;
+      font-size: 24px;
+    }
   }
 }
 

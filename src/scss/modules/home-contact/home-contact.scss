@@ -3,6 +3,7 @@
   text-align: center;
   background-color: $nile-blue;
   color: #fff;
+  z-index: 4;
 
   &__heading {
     @include home-heading(em(34));

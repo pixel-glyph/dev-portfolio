@@ -24,7 +24,7 @@ body {
   }
   
   @include desktop-wide {
-    grid-template-rows: em(600) auto auto auto auto;
+    grid-template-rows: calc(100vh - #{em($header-height)}) auto auto auto auto;
   }
   
   grid-template-areas:  "home-banner"
