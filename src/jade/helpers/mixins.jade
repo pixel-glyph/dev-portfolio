@@ -1,8 +1,8 @@
-mixin header-nav-links(listClass, listItemClass, linkClass)
+mixin header-nav-links(listClass, listItemClass, listItemId, linkClass)
   ul(class=listClass)
     li(class=listItemClass)
       a(class=linkClass href="#") Projects
-    li(class=listItemClass)
+    li(class=listItemClass id=listItemId)
       a(class=linkClass href="#") About
     li(class=listItemClass)
       a(class=linkClass href="#") Contact

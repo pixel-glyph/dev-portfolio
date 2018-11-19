@@ -17,5 +17,14 @@
       margin: 0;
       padding: 0 em(70) 0 0;
     }
+
+    &__list-item {
+      transition: color 0.2s ease;
+      cursor: pointer;
+
+      &:hover {
+        color: #e2e2e2;
+      }
+    }
   }
 }

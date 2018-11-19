@@ -1,6 +1,7 @@
 .mobile-nav-toggle {
   align-self: center;
   padding: em(14) em(12);
+  cursor: pointer;
 
   &__line {
     @include nav-toggle-line;

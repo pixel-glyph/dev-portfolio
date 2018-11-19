@@ -1,4 +1,8 @@
 body {
+  &.no-scroll { 
+    overflow: hidden;
+  }
+  
   @include phone-wide {
     font-size: 18px;
   }
@@ -10,7 +14,4 @@ body {
   @include tablet-wide {
     font-size: 20px;
   }
-
-
-  
 }
