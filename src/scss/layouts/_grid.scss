@@ -32,6 +32,18 @@ body {
                         "home-skills"
                         "home-tools"
                         "home-contact";
+
+  &--fixedHeader {
+    padding-top: em($header-height);
+
+    @include desktop {
+      padding-top: 77px; 
+    }
+  
+    @include desktop-wide {
+      padding-top: 84px;
+    }
+  }
 }
 
 .home-banner {

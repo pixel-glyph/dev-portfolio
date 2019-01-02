@@ -7,7 +7,15 @@
   height: em($header-height);
   padding: 0 em(8) 0 em(20);
   background-color: $nile-blue;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.75);
   z-index: 40;
+
+  &--fixToTop {
+    position: fixed;
+    top: -#{em($header-height)};
+    width: 100%;
+    animation: slideDown 250ms ease-in forwards;
+  }
 
   @include desktop {
     font-size: 22px;
@@ -17,5 +25,14 @@
 
   @include desktop-wide {
     font-size: 24px;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(em($header-height));
   }
 }
