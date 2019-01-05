@@ -1,11 +1,8 @@
-mixin header-nav-links(listClass, listItemClass, listItemId, linkClass)
+mixin header-nav-links(listClass, listItemClass, listItemId)
   ul(class=listClass)
-    li(class=listItemClass)
-      a(class=linkClass href="#") Projects
-    li(class=listItemClass id=listItemId)
-      a(class=linkClass href="#") About
-    li(class=listItemClass)
-      a(class=linkClass href="#") Contact
+    li(class=listItemClass) Projects
+    li(class=listItemClass linkClass id=listItemId) About
+    li(class=listItemClass) Contact
 
 mixin home-project(linkHref, title, desc, imgSrc, srcSet)
   .home-project
