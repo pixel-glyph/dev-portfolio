@@ -8,6 +8,7 @@ const aboutModal = document.getElementById("about-modal");
 const aboutModalClose = document.getElementById("about-modal-close");
 const pageOverlay = document.getElementById("page-overlay");
 const pageHeader = document.getElementById("page-header");
+const copyrightDate = document.getElementById("copyright-date");
 
 const toggleFreezeBody = () => docBody.classList.toggle("no-scroll");
 
@@ -48,6 +49,9 @@ const onWindowScroll = () => {
 
 const dOnWindowScroll = debounce(onWindowScroll, 100);
 
+copyrightDate.textContent = new Date().getFullYear();
+
+// event listeners
 navToggle.addEventListener("click", openCloseNav);
 aboutLink.addEventListener("click", toggleAboutModal);
 aboutModalClose.addEventListener("click", toggleAboutModal);
