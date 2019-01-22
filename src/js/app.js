@@ -1,11 +1,17 @@
 const docBody = document.body;
 const mainBody = document.getElementById("home-main-body");
 const aboutLink = document.getElementById("page-header-nav-about");
+const mobileAboutLink = document.getElementById("page-header-nav-mobile-about");
+const mobileContactLink = document.getElementById(
+  "page-header-nav-mobile-contact"
+);
+const contactLink = document.getElementById("page-header-nav-contact");
 const navToggle = document.getElementById("mobile-nav-toggle");
 const mobileNavMenu = document.getElementById("page-header-nav-mobile");
-const mobileAboutLink = document.getElementById("page-header-nav-mobile-about");
 const aboutModal = document.getElementById("about-modal");
+const contactModal = document.getElementById("contact-modal");
 const aboutModalClose = document.getElementById("about-modal-close");
+const contactModalClose = document.getElementById("contact-modal-close");
 const pageOverlay = document.getElementById("page-overlay");
 const pageHeader = document.getElementById("page-header");
 const copyrightDate = document.getElementById("copyright-date");
@@ -19,16 +25,23 @@ const openCloseNav = () => {
   mobileNavMenu.classList.toggle("show");
 };
 
-const toggleAboutModal = () => {
-  toggleFreezeBody();
+const toggleModal = modalName => {
+  const modal = modalName
+    ? document.getElementById(`${modalName}-modal`)
+    : document.querySelector(".home-modal.show");
+
+  modal.classList.toggle("show");
   toggleOverlay();
-  aboutModal.classList.toggle("show");
 };
 
-const toggleMobileAboutModal = () => {
-  mobileNavMenu.addEventListener("transitionend", toggleAboutModal, {
-    once: true
-  });
+const toggleMobileModal = modalName => {
+  mobileNavMenu.addEventListener(
+    "transitionend",
+    () => toggleModal(modalName),
+    {
+      once: true
+    }
+  );
   openCloseNav();
 };
 
@@ -49,16 +62,21 @@ const onWindowScroll = () => {
 
 const dOnWindowScroll = debounce(onWindowScroll, 100);
 
+// dynamically set copyright year in footer
 copyrightDate.textContent = new Date().getFullYear();
 
 // event listeners
 navToggle.addEventListener("click", openCloseNav);
-aboutLink.addEventListener("click", toggleAboutModal);
-aboutModalClose.addEventListener("click", toggleAboutModal);
-pageOverlay.addEventListener("click", toggleAboutModal);
+aboutLink.addEventListener("click", () => toggleModal("about"));
+contactLink.addEventListener("click", () => toggleModal("contact"));
+aboutModalClose.addEventListener("click", () => toggleModal());
+contactModalClose.addEventListener("click", () => toggleModal());
+pageOverlay.addEventListener("click", () => toggleModal());
 document.addEventListener("scroll", dOnWindowScroll);
-mobileAboutLink.addEventListener("click", toggleMobileAboutModal);
+mobileAboutLink.addEventListener("click", () => toggleMobileModal("about"));
+mobileContactLink.addEventListener("click", () => toggleMobileModal("contact"));
 
+// debounce helper
 function debounce(fn, delay = 200) {
   let timer;
 

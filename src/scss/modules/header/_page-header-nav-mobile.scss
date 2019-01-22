@@ -1,6 +1,7 @@
 .page-header-nav-mobile {
   position: fixed;
   top: em(56);
+  right: 0;
   width: 100%;
   height: calc(100vh - #{em(56)});
   background-color: #ffffff;

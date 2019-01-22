@@ -1,6 +1,14 @@
-.contact-modal
+.home-modal.contact-modal#contact-modal
 
-  .home-about-modal__close
-    include ../../svg/misc-icons/close_icn.svg
+  header.contact-modal__header
+    h1.contact-modal__title Hey there! Let’s connect!
 
-  h1.contact-modal__heading Send me an email
+    .home-about-modal__close#contact-modal-close
+      include ../../svg/misc-icons/close_icn.svg
+
+  p.contact-modal__copy I currently live in not-so-sunny Rochester, NY. Though I’m mainly on the lookout for remote work, relocation is definitely an option I’d consider for the right opportunity.
+  p.contact-modal__copy Feel free to contact me via email with any questions. Cheers!
+
+  include ../../svg/contact-icons/mail-icn.svg
+  a(href="mailto:arjbattaglia@gmail.com") arjbattaglia@gmail.com
+
