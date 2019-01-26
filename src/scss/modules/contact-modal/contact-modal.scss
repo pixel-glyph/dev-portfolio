@@ -1,7 +1,8 @@
 .contact-modal {
   @include modal(#fff);
-  max-width: 700px;
-  height: 515px;
+  max-width: 435px;
+  font-size: em(14);
+  background-color: #fff;
 
   &.show {
     pointer-events: auto;
@@ -9,9 +10,50 @@
     transform: translate(-50%, -50%);
   }
   
-  &__heading {
+  &__header {
     text-align: center;
-    font-family: $Montserrat;
-    font-weight: 400;
+    border-bottom: 3px solid #dea53a;
   }
+
+  &__body {
+    padding: 25px;
+    color: $tundora;
+  }
+  
+  &__title {
+    margin: 0;
+    padding: 18px 0 12px;
+    background-color: $nile-blue;
+    font-weight: 400;
+    font-size: em(30);
+    color: $wild-sand;
+    opacity: 0.93;
+  }
+
+  &__copy {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 14px;
+    padding: 0;
+  }
+
+  &__email {
+    text-align: center;
+  }
+
+  &__email-link {
+    font-weight: 500;
+    margin: 0 10px;
+  }
+
+  @include desktop {
+    .home-contact-icon {
+      cursor: default;
+    }
+    &:hover {
+      .home-about-modal__close {
+        opacity: 1;
+      }
+    }
+  } 
 }
