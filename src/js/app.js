@@ -15,6 +15,9 @@ const contactModalClose = document.getElementById("contact-modal-close");
 const pageOverlay = document.getElementById("page-overlay");
 const pageHeader = document.getElementById("page-header");
 const copyrightDate = document.getElementById("copyright-date");
+const contactMessageButton = document.getElementById(
+  "home-contact-message-btn"
+);
 
 const toggleFreezeBody = () => docBody.classList.toggle("no-scroll");
 
@@ -82,6 +85,7 @@ pageOverlay.addEventListener("click", () => toggleModal());
 document.addEventListener("scroll", dOnWindowScroll);
 mobileAboutLink.addEventListener("click", () => toggleMobileModal("about"));
 mobileContactLink.addEventListener("click", () => toggleMobileModal("contact"));
+contactMessageButton.addEventListener("click", () => toggleModal("contact"));
 
 // debounce helper
 function debounce(fn, delay = 200) {
