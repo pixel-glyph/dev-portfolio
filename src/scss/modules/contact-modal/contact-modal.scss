@@ -2,12 +2,14 @@
   @include modal(#fff);
   max-width: 435px;
   font-size: em(14);
-  background-color: #fff;
 
   &.show {
     pointer-events: auto;
-    opacity: 1;
-    transform: translate(-50%, -50%);
+    animation: modalSlideIn 5s ease-in-out forwards;
+  }
+
+  &.hide {
+    animation: modalSlideOut 5s ease-in-out forwards;
   }
   
   &__header {
@@ -56,4 +58,36 @@
       }
     }
   } 
+}
+
+@keyframes modalSlideIn {
+  0% {
+    transform: translate(-200%, -50%) rotate(-90deg);
+    opacity: 0;
+  }
+  
+  10% {
+    transform: translate(-46%, -50%) rotate(4deg);
+  }
+  
+  15%, 100% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+@keyframes modalSlideOut {
+  0% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  
+  5% {
+    transform: translate(-54%, -50%) rotate(-4deg);
+  }
+
+  15%, 100% {
+    transform: translate(200%, -50%) rotate(90deg);
+    opacity: 0;
+  }
 }

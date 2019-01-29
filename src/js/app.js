@@ -30,7 +30,14 @@ const toggleModal = modalName => {
     ? document.getElementById(`${modalName}-modal`)
     : document.querySelector(".home-modal.show");
 
-  modal.classList.toggle("show");
+  if (modal.classList.contains("show")) {
+    modal.classList.remove("show");
+    modal.classList.add("hide");
+  } else {
+    modal.classList.add("show");
+    modal.classList.remove("hide");
+  }
+
   toggleOverlay();
 };
 
