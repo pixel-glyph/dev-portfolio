@@ -5,6 +5,15 @@
     @include home-heading(em(20));
   }
 
+  &__name-underline {
+    width: 2px;
+    height: 2px;
+    margin-left: 38px; 
+    background-color: $nile-blue;
+    visibility: hidden;
+    transition: transform 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
   &__desc {
     margin-top: em(10);
     font-family: $Montserrat;
@@ -16,6 +25,7 @@
   &__image {
     max-width: 100%;
     border: 1px solid $alto;
+    transition: transform 0.3s ease-out;
   }
 
   &:last-of-type {
@@ -25,6 +35,39 @@
   @include desktop {
     font-size: 20px;
     margin: em(50) 0;
+
+    &:hover {
+      .home-project {
+        &__image {
+          transform: scale(1.025);    
+        }
+        &__name-underline {
+          visibility: visible;
+          transform-origin: left;
+        }
+      }
+    }
+
+    &.home-project__docs-portal:hover {
+      .home-project__name-underline {
+        transform: scaleX(68);
+      }
+    }
+    &.home-project__sasb-navigator:hover {
+      .home-project__name-underline {
+        transform: scaleX(96);
+      }
+    }
+    &.home-project__better-reads:hover {
+      .home-project__name-underline {
+        transform: scaleX(76);
+      }
+    }
+    &.home-project__commutecast:hover {
+      .home-project__name-underline {
+        transform: scaleX(82);
+      }
+    }
 
     &__name {
       padding-left: em(15);
@@ -60,8 +103,34 @@
       font-size: 1.65em;
     }
 
+    &__name-underline {
+      height: 3px;
+      margin-left: 50px;
+    }
+
     &__image {
       max-width: 100%;
+    }
+
+    &.home-project__docs-portal:hover {
+      .home-project__name-underline {
+        transform: scaleX(90);
+      }
+    }
+    &.home-project__sasb-navigator:hover {
+      .home-project__name-underline {
+        transform: scaleX(128);
+      }
+    }
+    &.home-project__better-reads:hover {
+      .home-project__name-underline {
+        transform: scaleX(102);
+      }
+    }
+    &.home-project__commutecast:hover {
+      .home-project__name-underline {
+        transform: scaleX(110);
+      }
     }
   }
 }

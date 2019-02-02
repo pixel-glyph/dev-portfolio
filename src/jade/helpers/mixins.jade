@@ -4,10 +4,11 @@ mixin header-nav-links(listClass, listItemClass, listItemId1, listItemId2, listI
     li(class=listItemClass id=listItemId2) About
     li(class=listItemClass id=listItemId3) Contact
 
-mixin home-project(linkHref, title, desc, imgSrc, srcSet)
-  .home-project
+mixin home-project(linkHref, title, desc, imgSrc, srcSet, projectName)
+  div(class="home-project home-project__#{projectName}")
     a.home-project__anchor(href=linkHref)
       .home-project__text
         h3.home-project__name #{title}
+        .home-project__name-underline
         p.home-project__desc #{desc}
       img.home-project__image(src=imgSrc, srcset=srcSet, title="#{title} screenshot")
