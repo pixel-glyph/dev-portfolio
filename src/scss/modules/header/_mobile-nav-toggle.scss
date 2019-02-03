@@ -1,12 +1,65 @@
-.mobile-nav-toggle {
-  align-self: center;
-  padding: em(14) em(12);
-  cursor: pointer;
+.mobile-nav-toggle-wrapper {
+  padding: 10px 6px;
+  margin-right: 5px;
 
-  &__line {
-    @include nav-toggle-line;
-    &:nth-of-type(1) {
-      margin: 0;
+  .mobile-nav-toggle-box {
+    position: relative;
+    width: 40px;
+    height: 32px;
+    cursor: pointer;
+
+    .mobile-nav-toggle {
+      align-self: center;
+      top: auto;
+      bottom: 0;
+      transition: transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.13s;
+
+      &,
+      &::before,
+      &::after {
+        @include nav-toggle-line;
+      }
+
+      &::before,
+      &::after {
+        content: "";
+        display: block;
+      }
+
+      &::before {
+        top: -14px;
+        transition: top 0.12s cubic-bezier(0.33333, 0.66667, 0.66667, 1) 0.2s,
+                    transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+      }
+
+      &::after {
+        top: -28px;
+        bottom: -10px;
+        transition: top 0.2s cubic-bezier(0.33333, 0.66667, 0.66667,1) 0.2s,
+                    opacity 0.1s linear;
+      }
+    }
+  }
+
+  &.is-active {
+    .mobile-nav-toggle {
+      transition-delay: 0.22s;
+      transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      transform: translate3d(0, -14px, 0) rotate(-45deg);
+
+      &::before {
+        top: 0;
+        transition: top 0.1s cubic-bezier(0.33333, 0, 0.66667, 0.33333) 0.16s, 
+                    transform 0.13s cubic-bezier(0.215, 0.61, 0.355, 1) 0.25s;
+        transform: rotate(-90deg);
+      }
+
+      &::after {
+        top: 0;
+        transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333),
+                    opacity 0.1s linear 0.22s;
+        opacity: 0;
+      }
     }
   }
 

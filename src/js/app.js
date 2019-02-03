@@ -6,7 +6,7 @@ const mobileContactLink = document.getElementById(
   "page-header-nav-mobile-contact"
 );
 const contactLink = document.getElementById("page-header-nav-contact");
-const navToggle = document.getElementById("mobile-nav-toggle");
+const navToggle = document.getElementById("mobile-nav-toggle-wrapper");
 const mobileNavMenu = document.getElementById("page-header-nav-mobile");
 const aboutModal = document.getElementById("about-modal");
 const contactModal = document.getElementById("contact-modal");
@@ -26,6 +26,7 @@ const toggleOverlay = () => pageOverlay.classList.toggle("show");
 const openCloseNav = () => {
   toggleFreezeBody();
   mobileNavMenu.classList.toggle("show");
+  navToggle.classList.toggle("is-active");
 };
 
 const toggleModal = modalName => {

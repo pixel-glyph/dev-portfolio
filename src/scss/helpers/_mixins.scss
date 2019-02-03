@@ -32,11 +32,11 @@
 }
 
 @mixin nav-toggle-line {
-  width: em(24);
-  height: 2px;
-  margin: em(7) 0 0;
+  position: absolute;
+  width: 40px;
+  height: 4px;
   background-color: #fff;
-  border-radius: em(2);
+  border-radius: 4px;
 }
 
 @mixin home-heading($size) {
