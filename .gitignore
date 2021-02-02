@@ -18,10 +18,3 @@ src/**/*.css
 .env.development.local
 .env.test.local
 .env.production.local
-public/*
-!public/img
-!public/*.png
-!public/*.ico
-!public/*.json
-!public/*.svg
-!public/*.xml

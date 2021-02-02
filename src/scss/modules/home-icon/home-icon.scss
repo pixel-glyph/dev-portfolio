@@ -21,10 +21,17 @@
     margin-left: em(-3);
   }
 
-  &__node {
+  &__webpack {
     width: em(30);
     height: em(34);
     margin-right: em(-7);
+  }
+
+  &__gulp {
+    right: -65px;
+    top: 136px;
+    width: 37px;
+    height: 80px;
   }
 
   &__css3 {
@@ -38,8 +45,8 @@
     margin-left: em(54);
   }
 
-  &__bem {
-    margin-right: em(54);
+  &__less {
+    margin-right: em(44);
   }
 
   &__html5 {
@@ -88,11 +95,32 @@
       height: 2.8em;
     }
   
-    &__node {
-      bottom: 1em;
-      right: 1.9em;
-      width: 2.7em;
-      height: 3.06em;
+    &__webpack {
+      bottom: 146px;
+      right: -49px;
+      width: 3.2em;
+      height: 3.2em;
+    }
+
+    &__jest {
+      bottom: 1.6em;
+      right: 2.5em;
+      width: 2.2em;
+      height: 2.2em;
+    }
+
+    &__enzyme {
+      bottom: -1em;
+      right: 2.9em;
+      width: 2.2em;
+      height: 2.2em;
+    }
+
+    &__rtl {
+      bottom: 0em;
+      right: 0.5em;
+      width: 2.2em;
+      height: 2.2em;
     }
 
     &__jquery {
@@ -116,9 +144,9 @@
       height: 2.8em;
     }
     
-    &__bem {
-      top: 7.4em;
-      left: -1.9em;
+    &__less {
+      top: 7.6em;
+      left: -2.5em;
     }
     
     &__html5 {
@@ -157,16 +185,6 @@
 
     @include tablet {
       margin: 0;
-    }
-  }
-
-  &__gulp {
-    margin-top: em(25);
-    margin-right: em(47);
-
-    @include tablet {
-      width: em(60);
-      margin: 0 0 0 em(-15);
     }
   }
 }
