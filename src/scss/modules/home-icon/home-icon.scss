@@ -124,8 +124,8 @@
     }
 
     &__jquery {
-      top: 8.3em;
-      right: -3em;
+      top: -2.4em;
+      right: -2.2em;
       width: 2.5em;
       height: 2.5em;
     }
@@ -186,6 +186,11 @@
     @include tablet {
       margin: 0;
     }
+  }
+
+  &__yarn {
+    width: 4.546em;
+    margin: 0 -5px 0 -10px;
   }
 }
   
