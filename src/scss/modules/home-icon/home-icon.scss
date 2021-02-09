@@ -166,6 +166,7 @@
 
 .home-tool-icon {
   margin-top: em(35);
+
   @include tablet {
     margin: 0;
   }
@@ -173,11 +174,31 @@
   &__git {
     width: em(62);
     height: em(61);
+
+    @include desktop {
+      transform: translateY(73px);
+    }
   }
 
   &__vs-code {
     width: em(58.3);
     height: em(62);
+
+    @include desktop {
+      transform: translateY(50px);
+    }
+  }
+
+  &__jenkins {
+    @include desktop {
+      transform: translateY(30px);
+    }
+  }
+  
+  &__sketch {
+    @include desktop {
+      transform: translateY(-18px);
+    }
   }
 
   &__npm {
@@ -186,11 +207,19 @@
     @include tablet {
       margin: 0;
     }
+
+    @include desktop {
+      transform: translateY(-37px);
+    }
   }
 
   &__yarn {
     width: 4.546em;
     margin: 0 -5px 0 -10px;
+
+    @include desktop {
+      transform: translateY(-59px);
+    }
   }
 }
   

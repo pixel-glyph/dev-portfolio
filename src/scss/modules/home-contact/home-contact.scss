@@ -32,7 +32,13 @@
   }
 
   @include desktop {
-    padding: 3.9em 1.5em;
+    padding: 15.412vw 1.5em 6em;
+    margin-bottom: -7.1vw;
+    transform: translateY(-7vw);
+
+    & > {
+      position: relative;
+    }
 
     &__info {
       max-width: 32em;

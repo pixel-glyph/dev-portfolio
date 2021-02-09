@@ -2,6 +2,7 @@
   padding: em(30) 0;
   background-color: #fff;
   z-index: 4;
+  position: relative;
 
   &__icons {
     display: flex;
@@ -22,8 +23,27 @@
 
   @include desktop {
     padding: em(40) em(38);
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 5;
+    > * {
+      position: relative;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background: white;
+      transform: skewy(-8deg);
+    }
 
     &__icons {
+      width: 67%;
+      max-width: 930px;
+      min-width: 825px;
       margin: 2.5em auto 1.2em;
     }
   }

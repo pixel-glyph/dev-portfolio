@@ -3,6 +3,11 @@
   background-color: #F5F5F5;
   z-index: 4;
 
+  @include desktop {
+    margin-top: -7.04607vw;
+    transform: translateY(7.04607vw);
+  }
+
   @include desktop-wide {
     font-size: 24px;
     padding-top: 3.3em;
