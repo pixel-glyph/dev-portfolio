@@ -64,10 +64,10 @@ const onWindowScroll = () => {
   if (!didScroll && window.scrollY > scrollBreakPoint) {
     pageHeader.classList.add("page-header--fixToTop");
     mainBody.classList.add("home-main-body--fixedHeader");
-    bannerHeadShot.classList.add("hide");
+    bannerHeadShot?.classList.add("hide");
     didScroll = true;
   } else if (window.scrollY < scrollBreakPoint) {
-    bannerHeadShot.classList.remove("hide");
+    bannerHeadShot?.classList.remove("hide");
     if (window.scrollY < 1) {
       pageHeader.classList.remove("page-header--fixToTop");
       mainBody.classList.remove("home-main-body--fixedHeader");

@@ -1,0 +1,53 @@
+.projects-main-body {
+  overflow: hidden;
+}
+
+.project-heading-lines {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 200px;
+  transform: skewY(-7deg);
+
+  .project-line-group-1 {
+    visibility: hidden;
+
+    @include tablet {
+      visibility: visible;
+      transform: translateX(-400px);
+    }
+
+    .project-line-1 {
+      height: 30px;
+      width: 1000px;
+      background-color: #edbd6d;
+      transform: translateX(26px);
+      box-shadow: -6px -3px 6px 0px grey;
+    }
+    .project-line-2 {
+      height: 10px;
+      width: 1000px;
+      background-color: #173753;
+    }
+  }
+  .project-line-group-2 {
+    transform: translate(-110px, -125px);
+
+    @include tablet {
+      transform: translateX(400px);
+    }
+
+    .project-line-3 {
+      width: 1000px;
+      height: 30px;
+      background-color: #edbd6d;
+      box-shadow: 6px -3px 6px 0px grey;
+    }
+    .project-line-4 {
+      width: 1000px;
+      height: 10px;
+      background-color: #173753;
+      transform: translateX(40px);
+    }
+  }
+}
