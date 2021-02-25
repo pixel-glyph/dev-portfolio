@@ -34,7 +34,16 @@
     }
 
     &__image {
+      width: 100%;
       margin: 20px 0;
+      border: 1px solid $alto;
+    }
+
+    &__image-mobile {
+      display: block;
+      width: 75%;
+      margin: 33px auto;
+      border: 1px solid $alto;
     }
     
     &__content {

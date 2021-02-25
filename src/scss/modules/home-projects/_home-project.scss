@@ -47,7 +47,17 @@
         }
       }
     }
-
+    
+    &.home-project__cloudcheckr:hover {
+      .home-project__name-underline {
+        transform: scaleX(106);
+      }
+    }
+    &.home-project__chime:hover {
+      .home-project__name-underline {
+        transform: scaleX(80);
+      }
+    }
     &.home-project__docs-portal:hover {
       .home-project__name-underline {
         transform: scaleX(68);
@@ -109,9 +119,19 @@
     }
 
     &__image {
-      max-width: 100%;
+      max-width: 500px;
     }
 
+    &.home-project__cloudcheckr:hover {
+      .home-project__name-underline {
+        transform: scaleX(140);
+      }
+    }
+    &.home-project__chime:hover {
+      .home-project__name-underline {
+        transform: scaleX(108);
+      }
+    }
     &.home-project__docs-portal:hover {
       .home-project__name-underline {
         transform: scaleX(90);
