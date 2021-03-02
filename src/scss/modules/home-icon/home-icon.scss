@@ -27,13 +27,6 @@
     margin-right: em(-7);
   }
 
-  &__gulp {
-    right: -65px;
-    top: 136px;
-    width: 37px;
-    height: 80px;
-  }
-
   &__css3 {
     display: block;
     width: em(90);
@@ -71,21 +64,32 @@
     margin: 0;
 
     &__js {
-      top: 2.15em;
-      right: 3.7375em;
-      width: 6.675em;
+      top: 2.85em;
+      right: 4.6375em;
+      width: 6.375em;
     }
 
     &__redux {
-      top: 2.15em;
-      right: 14.3em;
+      top: 2.45em;
+      right: 14.6em;
     }
   
     &__react {
-      top: -2.8em;
-      right: 12.5em;
+      top: -2.7em;
+      right: 12.8em;
       width: 3.6em;
       height: 3.2em;
+    }
+
+    &__single-spa {
+      width: 2.7278em;
+      right: 5.8em;
+      top: -3.2em;
+    }
+
+    &__storybook {
+      right: 2em;
+      top: -2.7em;
     }
     
     &__es6 {
@@ -94,38 +98,45 @@
       width: 2em;
       height: 2.8em;
     }
+
+    &__gulp {
+      top: 5.78em;
+      right: -1.7em;
+      width: 1.85em;
+      height: 4em;
+    }
   
     &__webpack {
-      bottom: 146px;
-      right: -49px;
+      bottom: 6.41em;
+      right: -1.55em;
       width: 3.2em;
       height: 3.2em;
     }
 
     &__jest {
       bottom: 1.6em;
-      right: 2.5em;
+      right: 3.5em;
       width: 2.2em;
       height: 2.2em;
     }
 
     &__enzyme {
       bottom: -1em;
-      right: 2.9em;
+      right: 3.9em;
       width: 2.2em;
       height: 2.2em;
     }
 
     &__rtl {
-      bottom: 0em;
-      right: 0.5em;
+      bottom: -0.2em;
+      right: 1.6em;
       width: 2.2em;
       height: 2.2em;
     }
 
     &__jquery {
-      top: -2.4em;
-      right: -2.2em;
+      top: 1.3em;
+      right: -2.8em;
       width: 2.5em;
       height: 2.5em;
     }

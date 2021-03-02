@@ -1,26 +1,27 @@
-<svg class="home-skill-icon home-skill-icon__skill-lines home-skill-icon__skill-lines-desktop" width="42em" height="19.5em" viewBox="0 0 980 454" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
-    <defs></defs>
-    <g id="portfolio_main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
-        <g id="Desktop-HD" transform="translate(-203.000000, -3246.000000)" stroke="#6F6F6F">
-            <g id="skills_tools_sec" transform="translate(0.000000, 2955.000000)">
-                <g id="skills">
-                    <g id="skills_diagram">
-                        <g id="skills_lines" transform="translate(204.000000, 292.000000)">
-                            <path d="M841.5,216.417599 L883.5,346.53764" id="Line-6" stroke-width="3"></path>
-                            <path d="M689.5,2.50813835 L745.5,56.724822" id="Line-3" stroke-width="3"></path>
-                            <path d="M663.5,79.3972533 L725.5,91.2263479" id="Line-3-Copy" stroke-width="3"></path>
-                            <path d="M902.5,169.101221 L977.5,201.631231" id="Line-4" stroke-width="3"></path>
-                            <path d="M961.5,0.536622584 L886.5,58.6963377" id="Line-5" stroke-width="3"></path>
-                            <path d="M0.5,169.101221 L70.5,112.913021" id="Line-2" stroke-width="3"></path>
-                            <path d="M482.5,312.036114 C525.883675,310.152059 571.325828,297.514029 618.826459,274.122024 C666.32709,250.730019 704.218271,225.580664 732.5,198.673957" id="Line-7" stroke-width="4"></path>
-                            <path d="M153.5,125.727874 C175.286198,162.997277 199.611332,194.6963 226.475402,220.824942 C253.339473,246.953584 286.347672,270.457003 325.5,291.335198" id="Line-8" stroke-width="4"></path>
-                            <path d="M383.5,450.638352 L402.5,391.492879" id="Line-11" stroke-width="3"></path>
-                            <path d="M196.5,39.9669379 L277.5,32.0808749" id="Line-12" stroke-width="3"></path>
-                        </g>
-                    </g>
-                </g>
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="home-skill-icon home-skill-icon__skill-lines home-skill-icon__skill-lines-desktop" width="42em" height="19.5em" viewBox="0 -15 997 469" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g id="portfolio_main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+    <g id="Desktop-HD" transform="translate(-203.000000, -3246.000000)" stroke="#6F6F6F">
+      <g id="skills_tools_sec" transform="translate(0.000000, 2955.000000)">
+        <g id="skills">
+          <g id="skills_diagram">
+            <g id="skills_lines" transform="translate(204.000000, 292.000000)">
+              <path d="M841.5,216.417599 L883.5,346.53764" id="Line-6" stroke-width="3"/>
+              <path d="M689.5,2.50813835 L745.5,56.724822" id="Line-3" stroke-width="3"/>
+              <path d="M663.5,79.3972533 L725.5,91.2263479" id="Line-3-Copy" stroke-width="3"/>
+              <path d="M902.5,169.101221 L977.5,201.631231" id="Line-4" stroke-width="3"/>
+              <path d="M 993.768 61.888 L 904.693 94.712" id="Line-5" stroke-width="3"/>
+              <path d="M0.5,169.101221 L70.5,112.913021" id="Line-2" stroke-width="3"/>
+              <path d="M482.5,312.036114 C525.883675,310.152059 571.325828,297.514029 618.826459,274.122024 C666.32709,250.730019 704.218271,225.580664 732.5,198.673957" id="Line-7" stroke-width="4"/>
+              <path d="M153.5,125.727874 C175.286198,162.997277 199.611332,194.6963 226.475402,220.824942 C253.339473,246.953584 286.347672,270.457003 325.5,291.335198" id="Line-8" stroke-width="4"/>
+              <path d="M383.5,450.638352 L402.5,391.492879" id="Line-11" stroke-width="3"/>
+              <path d="M196.5,39.9669379 L277.5,32.0808749" id="Line-12" stroke-width="3"/>
             </g>
+          </g>
         </g>
+      </g>
     </g>
+  </g>
+  <line style="stroke-width: 3px; stroke-linecap: round; stroke: rgb(111, 111, 111);" x1="866.875" y1="50.338" x2="905.947" y2="-12.718"/>
+  <line style="stroke-width: 3px; stroke-linecap: round; stroke: rgb(111, 111, 111);" x1="823.252" y1="35.916" x2="826.969" y2="-7.998"/>
 </svg>
