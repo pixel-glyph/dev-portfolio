@@ -19,7 +19,13 @@
     }
   }
 
-  &__group {}
+  &__group {
+    margin-bottom: 90px;
+  }
+
+  section:last-of-type {
+    margin-bottom: 0;
+  }
 
   &__group-header {
     + .section-heading__line {
@@ -53,6 +59,18 @@
         letter-spacing: .02em;
         font-size: .8125em;
       }
+    }
+
+    &__demo-link {
+      font-weight: bold;
+      text-decoration: underline;
+      color: $nile-blue;
+    }
+
+    &__link-icon {
+      width: 1em;
+      margin: 2px 8px 0 0;
+      fill: $nile-blue;
     }
   }
 }
