@@ -1,0 +1,35 @@
+.mobile-phone {
+  display: none;
+  width: 18.75em;
+  height: 40.6em;
+  padding: 0 0.85em;
+  background-color: #333d47;
+  border-radius: 1.875em;
+  box-shadow: 0 0.8em 0.8em -0.3em grey;
+
+  @include desktop {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__camera {
+    width: 0.6em;
+    height: 0.6em;
+    border-radius: 1.25em;
+    background-color: grey;
+    margin: 1.25em auto 0.5em;
+  }
+
+  &__speaker {
+    width: 3.7em;
+    height: 0.5em;
+    border-radius: 1.25em;
+    background-color: grey;
+    margin: 0 auto 1.35em;
+  }
+
+  &__screen {
+    height: 31.5em;
+    background: white;
+  }
+}

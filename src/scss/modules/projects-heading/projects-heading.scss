@@ -9,11 +9,19 @@
   margin-top: 200px;
   transform: skewY(-7deg);
 
+  @include desktop-wide {
+    margin-top: 320px;
+  }
+
   .project-line-group-1 {
     visibility: hidden;
 
     @include tablet {
       visibility: visible;
+      transform: translateX(-280px);
+    }
+
+    @include desktop {
       transform: translateX(-400px);
     }
 
@@ -34,6 +42,10 @@
     transform: translate(-110px, -125px);
 
     @include tablet {
+      transform: translateX(250px);
+    }
+
+    @include desktop {
       transform: translateX(400px);
     }
 

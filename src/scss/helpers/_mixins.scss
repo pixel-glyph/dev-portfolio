@@ -31,6 +31,18 @@
   }
 }
 
+@mixin desktop-wide-l {
+  @media (min-width: $desktop-wide-l) {
+    @content;
+  }
+}
+
+@mixin desktop-wide-xl {
+  @media (min-width: $desktop-wide-xl) {
+    @content;
+  }
+}
+
 @mixin nav-toggle-line {
   position: absolute;
   width: 40px;
