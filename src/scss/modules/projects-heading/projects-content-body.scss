@@ -38,11 +38,11 @@
   }
 
   &__group {
-    margin-bottom: 90px;
+    margin-bottom: 220px;
   }
 
   section:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: 150px;
   }
 
   &__group-header {
@@ -55,9 +55,18 @@
       margin-bottom: 50px;
       
       @include tablet {
-        margin-bottom: 60px;
+        margin-bottom: 100px;
       }
     }
+  }
+
+  .divider-rule {
+    width: 65%;
+    height: 2px;
+    margin: 200px auto;
+    background: linear-gradient(0.25turn, #fff, $nile-blue, #fff);
+    border: none;
+    opacity: 0.5;
   }
 
   .project {
@@ -65,10 +74,6 @@
 
     div:last-of-type {
       margin-bottom: 0;
-    }
-
-    @include tablet {
-      margin-bottom: 100px;
     }
 
     &__header {
@@ -81,12 +86,16 @@
       flex-direction: column;
 
       @include tablet-wide {
-        margin-bottom: 120px;
+        margin-bottom: 200px;
       }
 
       @include desktop {
-        margin-bottom: 160px;
+        flex-direction: row;
       }
+    }
+
+    &__feature--spaced {
+      justify-content: space-between;
     }
 
     &__feature--overflow {
@@ -114,7 +123,7 @@
       @include desktop {
         display: flex;
         justify-content: center;
-        margin-bottom: 320px;
+        margin-bottom: 220px;
       }
 
       .project__copy {
@@ -160,14 +169,14 @@
 
         .project__image {
           @include desktop {
+            width: 21%;
+          }
+
+          @include desktop-wide-m {
             width: 27%;
           }
         }
       }
-    }
-
-    &__feature--chime {
-      width: 100%;
     }
 
     &__image {
@@ -179,7 +188,13 @@
         width: 100%;
         max-width: none;
         border: none;
-        box-shadow: 0 0 18px -4px #80808085
+        box-shadow: 0 0 18px -4px #80808085;
+      }
+    }
+
+    &__image--spaced {
+      @include desktop {
+        width: 60%;
       }
     }
 
@@ -277,6 +292,36 @@
 
         @include desktop-wide-l {
           max-width: 700px;
+        }
+      }
+    }
+
+    &__intro-copy--spaced {
+      @include desktop {
+        width: 35%;
+      }
+    }
+
+    &__image-chime-wrapper {
+      @include desktop {
+        position: relative;
+      }
+
+      .project__image {
+        @include desktop {
+          width: 520px;
+        }
+
+        @include desktop-wide {
+          width: 560px;
+        }
+
+        @include desktop-wide-m {
+          width: 650px;
+        }
+
+        @include desktop-wide-l {
+          width: 780px;
         }
       }
     }

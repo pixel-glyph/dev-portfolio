@@ -31,6 +31,12 @@
   }
 }
 
+@mixin desktop-wide-m {
+  @media (min-width: $desktop-wide-m) {
+    @content;
+  }
+}
+
 @mixin desktop-wide-l {
   @media (min-width: $desktop-wide-l) {
     @content;
